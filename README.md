@@ -6,7 +6,7 @@ This project integrates a trained ML model, a Flask-based backend API, and a mod
 
 ---
 
-## 🟦 Frontend README – `Fakenews-Detection-frontend`
+## 🟦 `Fakenews-Detection-frontend`
 
 
 This repository contains the **React-based frontend** for the Fake News Detection project.  
