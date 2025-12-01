@@ -8,7 +8,6 @@ This project integrates a trained ML model, a Flask-based backend API, and a mod
 
 ## 🟦 Frontend README – `Fakenews-Detection-frontend`
 
-# 🌐 Fake News Detection – Frontend
 
 This repository contains the **React-based frontend** for the Fake News Detection project.  
 It provides a modern, tab-based UI where users can paste news text and see whether it is predicted as **fake** or **real** by the backend ML API.
@@ -82,26 +81,6 @@ It provides a modern, tab-based UI where users can paste news text and see wheth
 - Environment variable `REACT_APP_API_URL` for backend base URL
 
 ---
-
-## 🗂 Project Structure
-
-```bash
-frontend/
-│
-├── public/
-│   ├── index.html
-│   └── ...
-│
-├── src/
-│   ├── App.js          # Main UI with tabs, detector, info sections
-│   ├── App.css         # Styling (modern card + tab-based layout)
-│   ├── index.js        # React entry point
-│   └── ...
-│
-├── package.json
-└── README.md
-
-```
 
 ## 📁 Repositories
 
