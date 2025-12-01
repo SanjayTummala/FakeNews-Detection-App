@@ -1,6 +1,9 @@
-# Fake News Detection – Web Application  
-A full-stack Machine Learning project that identifies whether a given news statement is Fake or Real.  
-This application combines a trained ML model, a Flask-based API, and a modern React user interface to deliver fast and accurate predictions.
+# Fake News Detection – Full Stack Web Application
+
+A complete Machine Learning–powered web application designed to classify news text as Fake or Real.  
+This project integrates a trained ML model, a Flask-based backend API, and a modern React frontend, deployed across fully managed cloud platforms.
+
+The system is designed with clarity, responsiveness, and professional presentation, making it suitable for academic reviews, portfolios, and production-style ML demonstrations.
 
 Live Website  
 https://fakenews-detection-frontend.vercel.app/
@@ -10,67 +13,82 @@ https://fakenews-detection-backend.onrender.com/predict
 
 ---
 
-## Project Overview  
-The Fake News Detection App evaluates the authenticity of news content using Natural Language Processing and Machine Learning.  
-Users can submit any news text, and the system instantly responds with a prediction, supported by a trained model that analyzes linguistic patterns, phrasing, and statistical text features.
+## Project Overview
 
-The application provides a multi-section interface that includes a detector tool, project description, dataset insights, sample news examples, and a full architecture overview.
+The Fake News Detection App allows users to submit any news content and instantly receive a Fake/Real classification.  
+The prediction pipeline uses TF-IDF vectorization and a Multinomial Naive Bayes classifier trained on a comprehensive dataset of more than fifty thousand labeled samples.  
 
----
-
-## System Architecture  
-Frontend (React)  
-Backend API (Flask + Python)  
-TF-IDF Vectorizer  
-Multinomial Naive Bayes Model  
-Deployment on Vercel and Render  
-
-The flow is simple:  
-User → React App → Flask API → ML Model → Prediction → Displayed instantly
+The user interface includes detection tools, dataset insights, project explanation, example news samples, and a complete architectural breakdown of the system.
 
 ---
 
-## Key Features  
-Real-time Fake/Real classification  
-Clean and responsive UI  
-Model trained on more than fifty thousand labeled samples  
-Sample sections demonstrating real and fake news  
-Architecture and dataset explanation included within the app  
-Zero-downtime cloud deployment  
+## Summary Table
+
+| Component | Description | Repository | Deployment |
+|----------|-------------|------------|------------|
+| Frontend | React-based web application with responsive UI | https://github.com/SanjayTummala/Fakenews-Detection-frontend | Vercel |
+| Backend | Flask API serving the trained ML model | https://github.com/SanjayTummala/Fakenews-Detection-backend | Render |
+| Main Repo | Documentation, screenshots, architecture, project overview | https://github.com/SanjayTummala/FakeNews-Detection-App | N/A |
+
+This structure keeps the project clean, modular, and professionally organized.
 
 ---
 
-## Technology Stack  
-React.js (Frontend)  
-Flask (Backend API)  
-scikit-learn and TF-IDF (Machine Learning)  
-Pandas for dataset processing  
+## System Architecture
+
+User  
+→ React Frontend  
+→ Flask Backend API  
+→ TF-IDF Vectorizer  
+→ Naive Bayes Classifier  
+→ Prediction returned to UI  
+
+The architecture ensures a fast request–response cycle suitable for lightweight, real-time ML inference.
+
+---
+
+## Key Features
+
+Real-time fake news classification  
+Clean, multi-section interface  
+Model trained on a large curated dataset  
+Sample fake and real news examples provided  
+Fully deployed system accessible online  
+Straightforward, production-style architecture  
+
+---
+
+## Technology Stack
+
+React.js for the frontend interface  
+Flask (Python) for backend routing and prediction logic  
+scikit-learn for TF-IDF and Naive Bayes model  
+Pandas for dataset preprocessing  
 Vercel for frontend deployment  
 Render for backend deployment  
 
 ---
 
-## Repositories  
-Frontend Repository  
+## Repositories
+
+Frontend  
 https://github.com/SanjayTummala/Fakenews-Detection-frontend
 
-Backend Repository  
+Backend  
 https://github.com/SanjayTummala/Fakenews-Detection-backend
 
-Main Documentation (You are here)  
-https://github.com/SanjayTummala/Fakenews-Detection-App
+Main Documentation  
+https://github.com/SanjayTummala/FakeNews-Detection-App
 
 ---
 
-## Screenshots  
-Screenshots will be added inside the `assets/` folder to visually demonstrate:  
-Application UI  
-Prediction output  
-Architecture diagram  
-Dataset examples  
+## Screenshots
+
+All screenshots, demonstration images, and architecture diagrams will be placed inside the `assets/` folder of this repository.
 
 ---
 
-## Author  
+## Author
+
 Sanjay Kumar Tummala  
-Machine Learning · Networking · Web App Development  
+Machine Learning | Networking | Web Application Development  
